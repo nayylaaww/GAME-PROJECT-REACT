@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vredevol Bit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <img src="../asset/gng.png" class="gunung">
+    <img src="../asset/logo-index.png" class="logo">
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="/p-main/gameinfo/gameinfo.html">GameInfo</a></li>
+            <li><a href="/p-main/karakter/karakter.html">Character</a></li>
+            <li><a href="#" id="contact-toggle">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="../asset/erasebg-transformed.png" class="logo2">
+        <button class="btn1" onclick="window.location.href='/p-main/p-main/maen/pilihchar.html'">Play Game</button>
+        <button class="btn2" onclick="window.location.href='/p-main/p-main/tutor/tutor.html'" >Tutorial</button>
+    <!-- <button class="btn2" href="/p-main/p-main/tutor/tutor.html">Tutorial</href=></button> -->
+
+    <a href="/p-main/login/login.html#">
+        <button class="login-button" onclick="redirectToLogin()">LOGIN</button>
+        </a>
+
+        <div id="contact-section">
+            <button id="close-contact">✖</button>
+            <img src="../asset/contact-index.png" alt="Contact Section">
+        </div>
+       
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#contact-toggle").click(function (e) {
+            e.preventDefault();
+            $("#contact-section").css({
+                "bottom": "0",
+                "opacity": "1",
+                "visibility": "visible"
+            });
+        });
+
+        // Efek Slide ke Bawah saat tombol close diklik
+        $("#close-contact").click(function () {
+            $("#contact-section").css({
+                "bottom": "-100%",
+                "opacity": "0",
+                "visibility": "hidden"
+            });
+        });
+    });
+</script>
+
+
+        
+
+</body>
+</html>

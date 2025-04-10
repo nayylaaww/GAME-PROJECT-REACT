@@ -1,0 +1,178 @@
+.lb-register {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../p-main/asset/blur-bg.png);
+    background-size: cover;
+    background-position: center;
+    z-index: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.register-logo {
+    position: absolute;
+    top: 15px; /* Sesuaikan posisi */
+    left: 960px;
+    transform: translateX(-50%);
+    width: 650px; /* Pastikan ukurannya cukup besar */
+    height: auto;
+    z-index: 1; /* Pastikan ada di atas elemen lain */
+    display: block; /* Pastikan tampil */
+}
+
+
+
+/* Container utama */
+.container {
+    text-align: center;
+    position: relative;
+}
+
+/* Gaya teks LOGIN */
+.login-title {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* Login Box */
+.login-box {
+    background: #f8e8d1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    margin-top: 300px;
+    position: relative;
+    z-index: 5;
+    left: 40.5%;
+}
+
+/* Input Username & Password */
+.input-group {
+    pointer-events: auto;
+    display: block;
+    opacity: 1;
+    align-items: center;
+    background: #4a6f45;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    z-index: 11;
+}
+
+.input-group .icon {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.input-group input {
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    flex: 1;
+    font-size: 18px;
+}
+
+/* Input Email */
+.input-group.email {
+    display: flex;
+    align-items: center;
+    background: #4a6f45;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.input-group.email .icon {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.input-group.email input {
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    flex: 1;
+    font-size: 18px;
+}
+
+
+/* Tombol Login */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    background: #3c5a39;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    background: #2f4735;
+}
+
+/* Teks Sign In */
+.login-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+.login-text a {
+    color: #4a6f45;
+    text-decoration: none;
+}
+
+.leaves {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+.leaf {
+    width: 20px;
+    height: 40px;
+    background: #3c5a39;
+    border-radius: 10px;
+    transform: rotate(30deg);
+    animation: sway 2s infinite alternate ease-in-out;
+}
+
+@keyframes sway {
+    0% {
+        transform: rotate(25deg);
+    }
+    100% {
+        transform: rotate(35deg);
+    }
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 9%;
+    height: 10%;
+    z-index: 20;
+}
+

@@ -1,0 +1,170 @@
+/* Background halaman utama */
+body {
+    background-image: url('../assets/background.jpg'); /* Ganti sesuai struktur React kamu */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+/* Elemen gunung di bawah layar */
+.gunung {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* Logo utama di tengah */
+.logo {
+    position: absolute;
+    left: 720px;
+    top: 100px;
+    width: 450px;
+    height: auto;
+}
+
+/* Logo pojok kiri atas */
+.logo2 {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 100px;
+    height: auto;
+    max-width: 50%;
+}
+
+/* Tombol utama */
+.btn1, .btn2 {
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    width: 170px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 3px solid black;
+    color: black;
+    background-color: rgba(90, 133, 101, 0.7);
+    text-shadow: 1px 1px 4px;
+    transition: background-color 0.6s ease, box-shadow 0.6s ease;
+}
+
+.btn1 {
+    top: 40%;
+    transform: translate(-50%, -45%);
+}
+
+.btn2 {
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+
+/* Hover efek tombol */
+.btn1:hover, .btn2:hover {
+    background-color: rgba(60, 105, 71, 0.9);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar di atas */
+.navbar {
+    background-color: black;
+    width: 100%;
+    padding: 17px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* Background hijau di belakang navbar */
+.navbar::before {
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #2f4735;
+    z-index: -1;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Comic Sans MS', sans-serif;
+    word-spacing: 50px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+/* Tombol login kanan atas */
+.login-button {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #333;
+    padding: 10px 30px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    background-color: #222;
+    transform: scale(1.05);
+}
+
+/* Section kontak muncul dari bawah */
+#contact-section {
+    position: fixed;
+    bottom: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 1400px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: bottom 1s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#contact-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Tombol close untuk kontak */
+#close-contact {
+    position: absolute;
+    top: 13px;
+    right: 14px;
+    color: black;
+    background: #184323;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}

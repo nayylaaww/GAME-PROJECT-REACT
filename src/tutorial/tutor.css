@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+.bg {
+    position: absolute;
+    background-size: cover;
+    background: cover;
+    width: 209vh;
+    height: 97vh;
+    z-index: -2;
+}
+
+.keyboarda {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 1%;
+    bottom: 16%;
+}
+.keyboardw {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 7%;
+    bottom: 26%;
+}
+.keyboardd {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 13%;
+    bottom: 16%;
+}
+
+.space {
+    position: absolute;
+    width: 18%;
+    height: auto;
+    left: 3%;
+    bottom: 0%;
+}
+
+.tangan {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: 3%;
+    bottom: 18%;
+}
+
+.platfrom1 {
+    position: absolute;
+    width: 14%;
+    height: auto;
+    left: 36%;
+    bottom: 7%;
+}
+.platfrom2 {
+    position: absolute;
+    width: 14%;
+    height: auto;
+    left: 23%;
+    bottom: 22%;
+    z-index: -1;
+}
+.platfrom3 {
+    position: absolute;
+    width: 14%;
+    height: auto;
+    left: 37%;
+    bottom: 38%;
+}
+.platfrom4 {
+    position: absolute;
+    width: 14%;
+    height: auto;
+    left: 50%;
+    bottom: 50%;
+}
+.platfrom5 {
+    position: absolute;
+    width: 14%;
+    height: auto;
+    left: 65%;
+    bottom: 58%;
+}
+
+.grimleaf {
+    position: absolute;
+    width: 18%;
+    height: auto;
+    left: 300px;
+    bottom: 9%;
+}
+.warning {
+    position: absolute;
+    width: 37%;
+}
+.skippp {
+    position: absolute;
+    width: 17%;
+    bottom: 82%;
+}
+.itemw {
+    width: 27%;
+    position: absolute;
+    left: 36%;
+    z-index: -1;
+}
+.inpoww {
+    position: absolute;
+    width: 60%;
+    z-index: 10;
+    left: 20%;
+    top: 15%;
+}
+
+.lampu{
+    width: 11%;
+    left: 90%;
+    position: absolute;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+img {
+    width: 100px;
+    cursor: pointer;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    opacity: 100%;
+}
+.modal-content img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.thumbnail {
+    width: 100px;
+    cursor: pointer;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close-btn:hover {
+    background: rgb(160, 160, 160);
+}
+
+#character {
+    position: absolute;
+    width: 350px; /* Sesuaikan ukuran karakter */
+    height: auto;
+    left: 300px; /* Posisi awal karakter */
+    bottom: 9%;
+    transition:  linear;
+}
+

@@ -1,0 +1,73 @@
+.bgp {
+    position: absolute;
+    background-size: cover;
+    background: cover;
+    width: 99%;
+    height:99%;
+    z-index: -10;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+.c1{
+    position: absolute;
+    left: 35%;
+    top: 27%;
+    width: 29%;
+}
+.kiri{
+    position: absolute;
+    width: 18%;
+    height: auto;
+    left: 20%;
+    bottom: 45%;
+}
+.kanan{
+    position: absolute;
+    width: 18%;
+    height: auto;
+    left: 60%;
+    bottom: 45%;
+}
+
+.n1{
+    position: absolute;
+    left: 43.5%;
+    top: 77%;
+    width: 13%;
+    z-index: 1;
+}
+.p1{
+    position: absolute;
+    left: 40%;
+    top: 73%;
+    width: 20%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+.n1{
+    position: absolute;
+    left: 43.6%;
+    top: 74.5%;
+    z-index: 1;
+    font-family: 'Chewy', sans-serif;
+    font-size: 57px;
+    color: #ffffff; /* Warna coklat kayu */
+    text-shadow: 4px 4px 0px #a1a1a1, /* Bayangan luar */
+                 -2px -2px 0px #838383; /* Efek highlight */
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    right: -1%;
+    width: 8%;
+    height: 10%;
+}

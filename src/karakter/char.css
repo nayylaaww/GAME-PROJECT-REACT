@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    background-size: cover;
+    background: cover;
+    width: 209vh;
+    height: 97vh;
+    z-index: -2;
+}
+
+.logo {
+    width: 800px;
+    position: absolute;
+    top: -90px;
+    left: 550px;
+    z-index: 2;
+}
+
+.papan-char1 {
+    position: absolute;
+    width: 35%;
+    left: -5%;
+    top: 25%;
+}
+
+.papan-char2 {
+    position: absolute;
+    width: 35%;
+    left: 20%;
+    top: 25%;
+}
+
+.papan-char3 {
+    position: absolute;
+    width: 35%;
+    left: 43%;
+    top: 25%;
+}
+.papan-char4 {
+    position: absolute;
+    width: 35%;
+    left: 66%;
+    top: 25%;
+}
+
+.papan-nama1 {
+    position: absolute;
+    width: 15%;
+    left: 5.8%;
+    top: 68%;
+}
+
+.papan-nama2 {
+    position: absolute;
+    width: 15%;
+    left: 30.8%;
+    top: 68%;
+}
+
+.papan-nama3 {
+    position: absolute;
+    width: 15%;
+    left: 53.8%;
+    top: 68%;
+}
+
+.papan-nama4 {
+    position: absolute;
+    width: 15%;
+    left: 76.7%;
+    top: 68%;
+}
+
+.grimleaf {
+    position: absolute;
+    z-index: 10;
+    left: 5.2%;
+    width: 16%;
+    top: 36%;
+}
+
+.stonzel {
+    position: absolute;
+    z-index: 10;
+    left: 29.3%;
+    width: 17%;
+    top: 34.7%;
+}
+
+.mosslyn {
+    position: absolute;
+    z-index: 10;
+    left: 77.2%;
+    width: 13%;
+    top: 38%;
+}
+
+.sylphern {
+    position: absolute;
+    z-index: 10;
+    left: 53.3%;
+    width: 16%;
+    top: 36%;
+}
+
+.c1 {
+    color: white;
+    font-size: 50px;
+}
+
+.n1 {
+    width: 8%;
+    z-index: 10;
+    top: 72.5%;
+    left: 9%;
+    position: absolute;
+}
+.n2 {
+    width: 8%;
+    top: 72.5%;
+    left: 34.4%;
+    z-index: 10;
+    position: absolute;
+}
+.n3 {
+    width: 8%;
+    z-index: 10;
+    top: 72.5%;
+    left: 57.4%;
+    z-index: 10;
+    position: absolute;
+}
+.n4 {
+    width: 8%;
+    z-index: 10;
+    top: 72.5%;
+    left: 80.4%;
+    z-index: 10;
+    position: absolute;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 8%;
+    height: 10%;
+}
